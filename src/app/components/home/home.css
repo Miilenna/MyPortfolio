@@ -1,0 +1,94 @@
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+/*TEXT*/
+.initial-text{
+    margin: 9%;
+}
+.title {
+    color: white;
+    transition: all 0.2s ease;
+    font-size: 5vh;
+    letter-spacing: 7%;
+    font-weight: lighter;
+}
+.title:hover{
+    text-shadow: 0 0 10px #D19ADA;
+}
+.description {
+    color: white;
+    transition: all 0.2s ease;
+    font-size: 3vh;
+    width: 70%;
+    letter-spacing: 6%;
+    font-weight: lighter;
+}
+
+.description:hover{
+    text-shadow: 0 0 10px #D19ADA;
+}
+
+/*MENUS*/
+.menus {
+    font-size: 3vh;
+    display: grid;
+    gap: 2rem;
+    margin-left: 15%;
+    margin-top: -5%;
+    text-decoration: none;
+}
+
+.menu-about-me {
+    width: 10%;
+    text-align: center;
+    border-radius: 10%;
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease;
+    padding: 10px;
+}
+.menu-about-me:hover {
+    box-shadow: 0 0 20px #D19ADA;
+    width: 10.5%;
+    text-align: center;
+    cursor: pointer;
+}
+.menu-projects {
+    width: 10%;
+    text-align: center;
+    border-radius: 10%;
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease;
+    padding: 10px;
+}
+.menu-projects:hover {
+    box-shadow: 0 0 20px #D19ADA;
+    width: 10.5%;
+    text-align: center;
+    cursor: pointer;
+}
+.menu-contact {
+    width: 10%;
+    text-align: center;
+    border-radius: 10%;
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease;
+    padding: 10px;
+}
+.menu-contact:hover {
+    box-shadow: 0 0 20px #D19ADA;
+    width: 10.5%;
+    text-align: center;
+    cursor: pointer;
+}

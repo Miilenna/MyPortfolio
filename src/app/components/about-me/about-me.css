@@ -1,0 +1,38 @@
+.title {
+    font-size: 2.5vh;
+    margin-bottom: -1%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.text {
+    letter-spacing: 0.05em; 
+    font-weight: lighter;
+    margin: 60px auto 0 auto;
+    text-align: center;
+    width: 50%;
+}
+.cv {
+    display: flex;
+    justify-content: center;
+  
+}
+.cv button{
+    margin-top: 2%;
+    width: 8%;
+    text-align: center;
+    border-radius: 10%;
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease;
+    padding: 10px;
+
+}
+.cv button:hover {
+    box-shadow: 0 0 10px #D19ADA;
+    width: 8.5%;
+    text-align: center;
+    cursor: pointer;
+}

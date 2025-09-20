@@ -1,0 +1,41 @@
+<div class="arrow">
+  <button (click)="return()">
+    <img src="/return.png" alt="return to home">
+  </button>
+</div>
+
+<h1 class="titleDoc">Projects</h1>
+<div class="projects-grid">
+
+  <div class="left">
+    <div *ngFor="let project of projects.slice(0,3)" class="project">
+      <button (click)="toggleProject(project)">
+        <span>{{ project.title }}</span>
+        <img src="/" alt="flecha hacia abajo">
+      </button>
+
+      <div *ngIf="project.show" class="content">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.explication }}</p>
+        <img [src]="project.miniature" alt="miniature img">
+        <a [href]="project.github" target="_blank" rel="noopener noreferrer">Visitar web</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="right">
+    <div *ngFor="let project of projects.slice(3,7)" class="project">
+      <button (click)="toggleProject(project)">
+        <span>{{ project.title }}</span>
+        <img src="/" alt="flecha hacia abajo">
+      </button>
+
+      <div *ngIf="project.show" class="content">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.explication }}</p>
+        <p>{{ project.miniature }}</p>
+        <a [href]="project.github" target="_blank" rel="noopener noreferrer"></a>
+      </div>
+    </div>
+  </div>
+</div>
