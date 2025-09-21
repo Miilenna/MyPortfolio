@@ -16,14 +16,15 @@
 }
 .cv {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
   
 }
 .cv button{
     margin-top: 2%;
-    width: 8%;
+    width: 9%;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 10px;
     background-color: white;
     color: black;
     transition: all 0.2s ease;
@@ -32,7 +33,7 @@
 }
 .cv button:hover {
     box-shadow: 0 0 10px #D19ADA;
-    width: 8.5%;
+    width: 9.5%;
     text-align: center;
     cursor: pointer;
 }

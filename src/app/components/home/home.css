@@ -13,7 +13,13 @@ a:visited {
 /*TEXT*/
 .initial-text{
     margin: 9%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }
+
 .title {
     color: white;
     transition: all 0.2s ease;
@@ -22,7 +28,7 @@ a:visited {
     font-weight: lighter;
 }
 .title:hover{
-    text-shadow: 0 0 10px #D19ADA;
+    text-shadow: 0 0 30px #D19ADA;
 }
 .description {
     color: white;
@@ -50,7 +56,7 @@ a:visited {
 .menu-about-me {
     width: 10%;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 10px;
     background-color: white;
     color: black;
     transition: all 0.2s ease;
@@ -65,7 +71,7 @@ a:visited {
 .menu-projects {
     width: 10%;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 10px;
     background-color: white;
     color: black;
     transition: all 0.2s ease;
@@ -80,7 +86,7 @@ a:visited {
 .menu-contact {
     width: 10%;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 10px;
     background-color: white;
     color: black;
     transition: all 0.2s ease;
@@ -91,4 +97,11 @@ a:visited {
     width: 10.5%;
     text-align: center;
     cursor: pointer;
+}
+.canvas-container {
+  z-index: 0;
+  margin-left: 45%;
+  justify-content: center;
+  display: flex;
+  margin-top: -26%;
 }
