@@ -11,8 +11,14 @@ import { Router } from '@angular/router';
 export class AboutMe {
   constructor(private router: Router) {}
 
-  verCv(){
-    window.open("/JS.pdf", '_blank');
+  verCvEs(){
+    window.open("/cv_es.pdf", '_blank');
+  }
+  verCvEn(){
+    window.open("/cv_en.pdf", '_blank');
+  }
+  verRecomendacion(){
+    window.open("/CARTA_RECOMANACIO_MILENA.pdf", '_blank');
   }
   return(){
    this.router.navigate(["/home.html"]) ;

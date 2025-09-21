@@ -9,32 +9,36 @@
 
   <div class="left">
     <div *ngFor="let project of projects.slice(0,3)" class="project">
-      <button (click)="toggleProject(project)">
+      <button class="button" (click)="toggleProject(project)">
         <span>{{ project.title }}</span>
-        <img src="/" alt="flecha hacia abajo">
+         <div class="img">
+          <img src="/return_down.png" alt="flecha hacia abajo">
+        </div>
       </button>
 
       <div *ngIf="project.show" class="content">
         <h3>{{ project.title }}</h3>
         <p>{{ project.explication }}</p>
         <img [src]="project.miniature" alt="miniature img">
-        <a [href]="project.github" target="_blank" rel="noopener noreferrer">Visitar web</a>
+        <a [href]="project.github" target="_blank" rel="noopener noreferrer">View project</a>
       </div>
     </div>
   </div>
 
   <div class="right">
     <div *ngFor="let project of projects.slice(3,7)" class="project">
-      <button (click)="toggleProject(project)">
+      <button class="button" (click)="toggleProject(project)">
         <span>{{ project.title }}</span>
-        <img src="/" alt="flecha hacia abajo">
+         <div class="img">
+          <img src="/return_down.png" alt="flecha hacia abajo">
+        </div>
       </button>
 
       <div *ngIf="project.show" class="content">
         <h3>{{ project.title }}</h3>
         <p>{{ project.explication }}</p>
-        <p>{{ project.miniature }}</p>
-        <a [href]="project.github" target="_blank" rel="noopener noreferrer"></a>
+        <img [src]="project.miniature" alt="miniature img">
+        <a [href]="project.github" target="_blank" rel="noopener noreferrer">View project</a>
       </div>
     </div>
   </div>
