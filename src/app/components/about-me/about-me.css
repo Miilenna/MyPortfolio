@@ -1,39 +1,71 @@
-.title {
-    font-size: 2.5vh;
-    margin-bottom: -1%;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
+@media screen and (min-width: 900px) {
+    .title {
+        font-size: 2rem;
+        margin-bottom: -1%;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 
-.text {
-    letter-spacing: 0.05em; 
-    font-weight: lighter;
-    margin: 60px auto 0 auto;
-    text-align: center;
-    width: 50%;
-}
-.cv {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-  
-}
-.cv button{
-    margin-top: 2%;
-    width: 9%;
-    text-align: center;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-    transition: all 0.2s ease;
-    padding: 10px;
+    .text {
+        letter-spacing: 0.05em; 
+        font-weight: lighter;
+        margin: 60px auto 0 auto;
+        text-align: center;
+        width: 50%;
+    }
+    .cv {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    
+    }
+    .cv button{
+        margin-top: 4%;
+        width: 10%;
+        max-width: 80%;
+        text-align: center;
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+        transition: all 0.2s ease;
+        padding: 10px;
 
+    }
+    .cv button:hover {
+        box-shadow: 0 0 10px #D19ADA;
+        width: 10.5%;
+        text-align: center;
+        cursor: pointer;
+    }
 }
-.cv button:hover {
-    box-shadow: 0 0 10px #D19ADA;
-    width: 9.5%;
-    text-align: center;
-    cursor: pointer;
+@media screen and (max-width: 1000px) {
+    .title {
+        font-size: 1.5vh;
+        margin-bottom: -1%;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .text {
+        letter-spacing: 0.07em; 
+        font-size: 30px;
+        font-weight: lighter;
+        margin: 60px auto 0 auto;
+        text-align: center;
+        width: 80%;
+    }
+    .cv button{
+        box-shadow: 0 0 20px #D19ADA;
+        margin-top: 10%;
+        width: auto;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .cv {
+        display: grid;
+        justify-content: space-evenly;    
+    }
 }
