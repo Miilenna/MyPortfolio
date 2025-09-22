@@ -25,22 +25,22 @@ export class Contact {
     {id: 1, 
       title: 'LinkedIn', 
       icon: "/linkedin.png",
-      explication: `Aquí puedes encontrar mi perfil de LinkedIn completo:`, 
-      url: 'www.linkedin.com/in/milena-vardumyan-aleksanyan-182928196', 
+      explication: `My LinkedIn profile:`, 
+      url: 'https://www.linkedin.com/in/milena-vardumyan-aleksanyan', 
       show: false
     }, 
     {id: 2, 
       title: 'Email', 
       icon: "/email.png",
-      explication: `Aquí está mi email por si necesitas contactar conmigo:`, 
-      url: 'milena200.fv@gmail.com', 
+      explication: `You can contact me using this email:`, 
+      url: 'mailto:milenavardalek04@gmail.com', 
       show: false
     }, 
     {id: 3, 
       title: 'PhoneNumber', 
       icon: "/phone.png",
-      explication: `Aquí tienes mi numéro de teléfono por si quieres contactar conmigo:`, 
-      url: '+34 698 422 556', 
+      explication: `You can contact me using this number:`, 
+      url: 'https://wa.me/34698422556', 
       show: false
     }, 
   ]

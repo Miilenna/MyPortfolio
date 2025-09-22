@@ -13,7 +13,7 @@
 
       <div *ngIf="contact.show" class="content">
         <p class="explication">{{ contact.explication }}</p>
-        <p class="url">{{ contact.url }}</p>
+        <a class="url" [href]="contact.url">Click this to contact me</a>
       </div>
     </div>
   </div>
