@@ -1,28 +1,17 @@
 <div class="body">
-<div class="initial-text">
-  <h1 class="title">MILENA VARDUMYAN ALEKSANYAN</h1>
-  <h3 class="description">
-    I am a full-stack web developer in training, focused on creating efficient and collaborative web solutions,
-    with skills in both front-end and back-end development
-  </h3>
-</div>
+<<<<<<< HEAD
+  <div class="initial-text">
+    <h1 class="title">MILENA VARDUMYAN ALEKSANYAN</h1>
+    <h3 class="description">
+      I am a full-stack web developer in training, focused on creating efficient and collaborative web solutions,
+      with skills in both front-end and back-end development
+    </h3>
+  </div>
 
-<nav class="menus">
-  <a class="menu-about-me" routerLink="about-me" aria-label="Navigate to About Me section">About Me</a>
-  <a class="menu-projects" routerLink="projects" aria-label="Navigate to Projects section">Projects</a>
-  <a class="menu-contact" routerLink="contact" aria-label="Navigate to Contact section">Contact</a>
-</nav>
-<ngt-point-light [intensity]="0.5" [position]="[1,1,0]"></ngt-point-light>
-<ngt-point-light [intensity]="0.5" [position]="[-0.5,-0.5,0]"></ngt-point-light>
-<ngt-orbit-controls #orbitControls *args="[camera(), glDomElement()]"[enableZoom]="false" [autoRotate]="true" [autoRotateSpeed]="5"></ngt-orbit-controls>
-<ngt-point-light [intensity]="0.5"></ngt-point-light>
-
-<ngt-primitive *args="[model()]" [position]="[0, -0.7, -0.1]"/>
-<ngt-ambient-light [intensity]="2"/>
-<ngt-ambient-light [intensity]="2" [position]="[0,0,1]"/>
-<ngt-ambient-light [intensity]="2" [position]="[0,0,-1]"/>
-<div class="h-[300px]">
-  <ngt-canvas [sceneGraph]="sceneGraph" [camera]="{zoom:4, position: [4, 2, 1]}"></ngt-canvas>
-</div>
-
+  <nav class="menus">
+    <a class="menu-about-me" routerLink="about-me" aria-label="Navigate to About Me section">About Me</a>
+    <a class="menu-projects" routerLink="projects" aria-label="Navigate to Projects section">Projects</a>
+    <a class="menu-contact" routerLink="contact" aria-label="Navigate to Contact section">Contact</a>
+  </nav>
+<div #canvasContainer class="h-[300px] w-full"></div>
 </div>
