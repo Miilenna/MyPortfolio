@@ -119,5 +119,6 @@ export class HomeComponent implements AfterViewInit {
       renderer.render(scene, camera);
     };
     animate();
+
   }
 }
