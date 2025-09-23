@@ -11,6 +11,10 @@
         text-decoration: none;
     }
 
+    .body {
+        width: 90%;
+        height: 50%;
+    }
     /*TOP TEXT*/
     .initial-text{
         margin: 9%;
@@ -100,10 +104,8 @@
     /*3D MODEL*/
     .canvas-container {
         z-index: 0;
-        margin-left: 45%;
         justify-content: center;
         display: flex;
-        margin-top:-10%;
     }
 }
 
