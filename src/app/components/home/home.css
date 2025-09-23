@@ -16,7 +16,7 @@
         margin: 9%;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: auto;
         position: relative;
         z-index: 1;
     }
