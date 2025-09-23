@@ -1,4 +1,5 @@
 @media screen and (min-width: 900px) {
+    /*BIG TEXT*/
     .title {
         font-size: 2rem;
         margin-bottom: -1%;
@@ -7,7 +8,6 @@
         margin-right: auto;
         text-align: center;
     }
-
     .text {
         letter-spacing: 0.05em; 
         font-weight: lighter;
@@ -15,6 +15,8 @@
         text-align: center;
         width: 50%;
     }
+
+    /*CVs*/
     .cv {
         display: flex;
         justify-content: space-evenly;
@@ -40,6 +42,7 @@
         cursor: pointer;
     }
 }
+
 @media screen and (max-width: 1000px) {
     .title {
         font-size: 1.5vh;
@@ -49,6 +52,8 @@
         margin-right: auto;
         text-align: center;
     }
+
+    /*BIG TEXT*/
     .text {
         letter-spacing: 0.07em; 
         font-size: 30px;
@@ -57,6 +62,8 @@
         text-align: center;
         width: 80%;
     }
+
+    /*CVs*/
     .cv button{
         box-shadow: 0 0 20px #D19ADA;
         margin-top: 10%;

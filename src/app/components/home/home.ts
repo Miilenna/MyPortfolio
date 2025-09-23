@@ -1,13 +1,6 @@
-import {
-  Component,
-  AfterViewInit,
-  ElementRef,
-  ViewChild,
-  Renderer2
-} from '@angular/core';
+import { Component, AfterViewInit, ElementRef, ViewChild, Renderer2 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
-
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
@@ -164,7 +157,6 @@ export class HomeComponent implements AfterViewInit {
         );
       }
     });
-
     resizeObserver.observe(this.containerRef.nativeElement);
   }
 }
