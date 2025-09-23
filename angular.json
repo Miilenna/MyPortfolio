@@ -29,7 +29,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "/public/js/vanta.net.min.js"
+            ]
           },
           "configurations": {
             "production": {

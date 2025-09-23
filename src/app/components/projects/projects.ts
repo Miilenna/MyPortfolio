@@ -56,7 +56,7 @@ export class Projects {
       We used PostgreSQL to store product and user data, 
       and the backend was developed with Django REST Framework (DRF).`, 
       miniature: '/games.png', 
-      github: 'https://github.com/danivm-iticbcn/vgameFront', 
+      github: 'https://drive.google.com/file/d/1mfXHT3ZQYJD2gwPqiLilIDsmaShFFheF/view?usp=sharing', 
       show: false
     }, 
     {id: 4, 
