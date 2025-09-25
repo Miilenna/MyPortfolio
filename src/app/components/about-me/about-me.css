@@ -66,13 +66,9 @@
     /*CVs*/
     .cv button{
         box-shadow: 0 0 20px #D19ADA;
-        margin-top: 10%;
         width: auto;
         border-radius: 10px;
-        padding: 10px;
+        padding: 15px;
     }
-    .cv {
-        display: grid;
-        justify-content: space-evenly;    
-    }
+   
 }
