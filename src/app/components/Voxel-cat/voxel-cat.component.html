@@ -1,3 +1,5 @@
-<div #container class="voxel-cat">
-  <app-loader *ngIf="loading"></app-loader>
+<div *ngIf="loading">
+  <app-loader></app-loader>
 </div>
+
+<div #container class="voxel-cat" *ngIf="!loading"></div>

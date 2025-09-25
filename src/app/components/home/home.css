@@ -14,6 +14,7 @@
     .body {
         width: 90%;
         height: 50%;
+        position: fixed;
     }
     /*TOP TEXT*/
     .initial-text{
@@ -38,7 +39,7 @@
         color: white;
         transition: all 0.2s ease;
         font-size: 3vh;
-        width: 70%;
+        width: 75%;
         letter-spacing: 6%;
         font-weight: lighter;
     }
@@ -100,21 +101,10 @@
         text-align: center;
         cursor: pointer;
     }
-    
-/* home.css */
-.spinner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 48px;
-  height: 48px;
-  margin-left: -24px;
-  margin-top: -24px;
-  border: 6px solid #ccc;
-  border-top-color: #333;
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
-}
+    .app-voxel-cat {
+        justify-content: center;
+        display: flex;
+    }
 
 @keyframes spin {
   to {
@@ -125,11 +115,7 @@
 
 @media screen and (max-width: 1000px) {
     /*TOP TEXT*/
-    .initial-text {
-        margin: 2%;
-    }
     .description {
-        justify-content: center;
         display: contents;
         font-size: 40px;
     }
@@ -141,21 +127,7 @@
         width: 500%;
         margin-left: 25%;
     }
-    .menu-about-me {
-        box-shadow: 0 0 30px #D19ADA;
-    }
-    .menu-projects {
-        box-shadow: 0 0 30px #D19ADA;
-    }
-    .menu-contact {
-        box-shadow: 0 0 30px #D19ADA;
-    }
-    
-    /*3D MODEL*/
-    .canvas-container {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-        height: auto;
-    }
+    .menu-about-me {box-shadow: 0 0 30px #D19ADA;}
+    .menu-projects {box-shadow: 0 0 30px #D19ADA;}
+    .menu-contact {box-shadow: 0 0 30px #D19ADA;}
 }

@@ -30,10 +30,10 @@
 @media screen and (max-width: 1000px) {
   body {
     font-size: 18px;
-    padding: 2rem;
   }
   .arrow img {
     width: 130px;
     transition: all 0.2s ease;
   }
+
 }
