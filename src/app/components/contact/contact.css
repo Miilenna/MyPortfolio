@@ -48,6 +48,11 @@
     .linkedin { border-color: #0077b5; }
     .email { border-color: #d44638; }
     .phonenumber { border-color: #34a853; }
+
+    .linkedin:hover { cursor: pointer; }
+    .email:hover { cursor: pointer; }
+    .phonenumber:hover { cursor: pointer; }
+
     .linkedin:hover {
         background-color: #c2e9ff;
         border-color: rgb(119, 177, 212);
