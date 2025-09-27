@@ -4,6 +4,10 @@
     color: white;
     font-family: 'Jersey 10', sans-serif;
   }
+  #idFondo {
+    height: 123%;
+    position: inherit;
+  }
   button {
     font-family: 'Jersey 10', sans-serif;
     font-weight: lighter;
