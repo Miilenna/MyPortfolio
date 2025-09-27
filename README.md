@@ -71,13 +71,16 @@ For more information on using the Angular CLI, including detailed command refere
 ## Navegación:
 ### Home Page:
 Contains three buttons that redirect to different sections of the site. It also features a 3D model I created, integrated via an external script, as well as a background that is also loaded externally.
+![home page](public/portfolio.png)
 ### About Me Page:
 Here I share my story and how I entered the world of computer science. It includes my resume in both Spanish and English, as well as a letter of recommendation.
+![about-me](public/about-me.png)
 ### Projects Page:
 A section dedicated to the projects I consider most important and representative of my experience.
+![projects](public/projects.png)
 ### Contact Page: 
 A space where I include my social media profiles and direct contact options.
-
+![contact](public/contact.png)
 # Technologies Used:
 - Angular
 - TypeScript
