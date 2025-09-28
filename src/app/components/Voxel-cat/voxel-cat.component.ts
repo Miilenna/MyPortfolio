@@ -75,7 +75,7 @@ export class VoxelCatComponent implements AfterViewInit, OnDestroy {
     controls.rotateSpeed = 0.5;
 
     const loader = new GLTFLoader();
-    const urlCatGLTF = '/catGB.glb';
+    const urlCatGLTF = 'assets/catGB.glb';
     loader.load(
       urlCatGLTF,
       gltf => {

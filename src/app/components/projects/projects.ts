@@ -26,7 +26,7 @@ export class Projects {
       At that time, I barely knew programming and needed some help with JavaScript, but it was a great first step. 
       I created this website in Russian because it was made for my aunt, who owns a salon in Russia. 
       Today, with much more knowledge and tools, I could rebuild it independently and with significant improvements.`, 
-      miniature: '/aunt.png', 
+      miniature: 'assets/aunt.png', 
       github: 'https://www.studioSharm.com', 
       show: false
     }, 
@@ -42,7 +42,7 @@ export class Projects {
       as this was my first project using the framework. 
       Let me know if you'd like to tailor it for a specific audience—like recruiters or clients—or 
       add a touch of personality to make it stand out even more.`, 
-      miniature: '/portfolio.png', 
+      miniature: 'assets/portfolio.png', 
       github: 'https://github.com/Miilenna/MyPortfolio', 
       show: false
     }, 
@@ -55,7 +55,7 @@ export class Projects {
       The frontend was built using JavaScript, HTML, and CSS. 
       We used PostgreSQL to store product and user data, 
       and the backend was developed with Django REST Framework (DRF).`, 
-      miniature: '/games.png', 
+      miniature: 'assets/games.png', 
       github: 'https://drive.google.com/file/d/1mfXHT3ZQYJD2gwPqiLilIDsmaShFFheF/view?usp=sharing', 
       show: false
     }, 
@@ -65,7 +65,7 @@ export class Projects {
       I was fully responsible for the web development, using JavaScript, HTML, and CSS. 
       The platform includes a PostgreSQL database to store vehicle listings, 
       and I implemented a complete CRUD system for all operations using Django REST Framework (DRF).`,
-      miniature: '/carplaytrade.png', 
+      miniature: 'assets/carplaytrade.png', 
       github: 'https://github.com/Miilenna/CarPlayTrade', 
       show: false
     }, 
@@ -75,7 +75,7 @@ export class Projects {
       It automatically detects the user's location on startup and allows filtering points by category 
       (culture, leisure, dining, etc.) and sorting them in ascending or descending order.
       Build with JavaScript, HTML and CSS`, 
-      miniature: '/map.png', 
+      miniature: 'assets/map.png', 
       github: 'https://github.com/Miilenna/Mapa_M6', 
       show: false
     }, 
@@ -87,7 +87,7 @@ export class Projects {
       strong passion for motorcycles. We merged both themes into the design, just as the client envisioned. 
       Through this experience, I strengthened my team communication skills and learned 
       how to effectively engage with the client to understand and deliver on their vision.`, 
-      miniature: '/barber.png', 
+      miniature: 'assets/barber.png', 
       github: 'https://www.barbersantjoan.com/', 
       show: false
     },
@@ -100,7 +100,7 @@ export class Projects {
       It was also my first experience communicating directly with a client, which helped me improve my c
       ommunication skills, learn how to clearly convey technical decisions, 
       and build trust to ensure the client felt confident the site would be delivered on time.`, 
-      miniature: '/nuska.png', 
+      miniature: 'assets/nuska.png', 
       github: 'https://www.nuskasalon.com/', 
       show: false
     }

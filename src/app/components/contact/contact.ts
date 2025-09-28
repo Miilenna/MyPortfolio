@@ -24,21 +24,21 @@ export class Contact {
   contacts = [
     {id: 1, 
       title: 'LinkedIn', 
-      icon: "/linkedin.png",
+      icon: "assets/linkedin.png",
       explication: `My LinkedIn profile:`, 
       url: 'https://www.linkedin.com/in/milena-vardumyan-aleksanyan', 
       show: false
     }, 
     {id: 2, 
       title: 'Email', 
-      icon: "/email.png",
+      icon: "assets/email.png",
       explication: `You can contact me using this email:`, 
       url: 'mailto:milenavardalek04@gmail.com', 
       show: false
     }, 
     {id: 3, 
       title: 'PhoneNumber', 
-      icon: "/phone.png",
+      icon: "assets/phone.png",
       explication: `You can contact me using this number:`, 
       url: 'https://wa.me/34698422556', 
       show: false
