@@ -39,5 +39,9 @@
     width: 130px;
     transition: all 0.2s ease;
   }
+  
+  #idFondo {
+    height: auto;
+  }
 
 }
