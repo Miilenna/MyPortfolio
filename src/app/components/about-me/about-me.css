@@ -2,7 +2,7 @@
     /*BIG TEXT*/
     .title {
         font-size: 2rem;
-        margin-top: -2%;
+        margin-bottom: -1%;
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
@@ -17,15 +17,16 @@
     }
 
     /*CVs*/
-    .recomm {
+    .cv {
         display: flex;
-        justify-content: center;    
-        margin-bottom: -50%;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    
     }
-    .recomm button{
+    .cv button{
         margin-top: 4%;
         width: 10%;
-        max-width: auto;
+        max-width: 80%;
         text-align: center;
         border-radius: 10px;
         background-color: white;
@@ -34,88 +35,12 @@
         padding: 10px;
 
     }
-    .recomm button:hover {
+    .cv button:hover {
         box-shadow: 0 0 10px #D19ADA;
         width: 10.5%;
         text-align: center;
         cursor: pointer;
     }
-
-    .block1, .block2, .block3, .block4 {
-        overflow: hidden;
-        width: 50%;
-        margin: 0 auto;
-    }
-    .logos-track{
-        display: flex;
-        width: max-content;
-    }
-
-    .logos {
-        width: 70px;
-        flex-shrink: 0;
-        margin: 0 5px;
-    }
-
-    .logos img{
-        width: 100%;
-        height: auto;
-    }
-
-
-    .block1 { --duration: 20s; }
-    .block2 { --duration: 10s; }
-    .block3 { --duration: 4s; }
-    .block4 { --duration: 6s; }
-
-    .block1 .logos-track {
-        animation: scroll33 var(--duration) linear infinite;
-    }
-
-    .block2 .logos-track {
-        animation: scroll25 var(--duration) linear infinite;
-    }
-
-    .block3 .logos-track {
-        animation: scroll14 var(--duration) linear infinite;
-    }
-
-    .block4 .logos-track {
-        animation: scroll16 var(--duration) linear infinite;
-    }
-
-    @keyframes scroll33 {
-        0% {transform: translateX(0%);}
-        100% {transform: translateX(-33.33%);}
-    }
-
-    @keyframes scroll25 {
-        0% {transform: translateX(0%);}
-        100% {transform: translateX(-25%);}
-    }
-
-    @keyframes scroll14 {
-        0% {transform: translateX(0%);}
-        100% {transform: translateX(-14.29%);}
-    }
-
-    @keyframes scroll16 {
-        0% {transform: translateX(0%);}
-        100% {transform: translateX(-16.66%);}
-    }    
-
-    .all-logos h3 {
-        justify-content: center;
-        display: flex;
-        font-size: 30px;
-    }
-    .block1 .logos-track:hover,
-    .block2 .logos-track:hover,
-    .block3 .logos-track:hover,
-    .block4 .logos-track:hover {
-        animation-play-state: paused;
-    }
-
 }
 
 @media screen and (max-width: 1000px) {
