@@ -8,11 +8,10 @@ import {
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import { LoaderComponent } from '../Loader/loader.component';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  imports: [CommonModule, LoaderComponent],
+  imports: [CommonModule],
   selector: 'app-voxel-cat',
   template: `<div #container class="voxel-cat"></div>`,
   styleUrls: ['./voxel-cat.component.css']

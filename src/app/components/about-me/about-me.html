@@ -50,13 +50,114 @@
   continue learning, and collaborate in the growth of the company, 
   working both in a team and independently.
 </h3>
-<div class="cv">
-  <button (click)="verCvEs()">
-    <span>Spanish CV</span>
-  </button>
-  <button (click)="verCvEn()">
-    <span>English CV</span>
-  </button>
+<div class="all-logos">
+  <h3>Front-end</h3>
+  <div class="block1">
+    <div class="logos-track">
+      <!-- Primera tanda -->
+      <div *ngFor="let logo of logos.slice(0,12)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Segunda tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(0,12)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Tercera tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(0,12)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+    </div>
+  </div>
+
+  <h3>Back-end</h3>
+  <div class="block2">
+    <div class="logos-track">
+      <!-- Primera tanda -->
+      <div *ngFor="let logo of logos.slice(12,19)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Segunda tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(12,19)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Tercera tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(12,19)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Quarta tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(12,19)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+    </div>
+  </div>
+
+  <h3>Databases</h3>
+  <div class="block3">
+    <div class="logos-track">
+      <!-- Primera tanda -->
+      <div *ngFor="let logo of logos.slice(19,22)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Segunda tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(19,22)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Tercera tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(19,22)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Quarta tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(19,22)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Quinta tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(19,22)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Sexta tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(19,22)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Septima tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(19,22)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+    </div>
+  </div>
+
+  <h3>Tools</h3>
+  <div class="block4">
+    <div class="logos-track">
+      <!-- Primera tanda -->
+      <div *ngFor="let logo of logos.slice(22,29)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Segunda tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(22,29)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Tercera tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(22,29)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Quarta tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(22,29)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Quinta tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(22,29)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+      <!-- Sexta tanda (duplicada) -->
+      <div *ngFor="let logo of logos.slice(22,29)" class="logos">
+        <img [src]="logo.icon" alt="img" class="icons">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="recomm">
   <button (click)="verRecomendacion()">
     <span>Recommendation letter</span>
   </button>
